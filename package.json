@@ -1,0 +1,17 @@
+{
+  "name": "amplified-interview",
+  "version": "1.0.0",
+  "description": "Base template for the tech interview",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16",
+    "ws": "^7.2.3"
+  }
+}
