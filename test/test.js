@@ -12,6 +12,7 @@ test('it calls the dataset fetch top in the first time', () => {
     const data = cachedData.dataset;
     let spy = jest.spyOn(data, 'top3').mockImplementation(() => 'Hello');
     expect(data.top3).toHaveBeenCalled();
+
 });
 
 test('it uses cache when called second time', () => {
